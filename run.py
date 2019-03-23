@@ -13,5 +13,5 @@ while True:
     inp = input().split()
     f = open('params.txt', 'w')
     f.close()
-    system('/home/dima/anaconda3/bin/python main.py %s %s < data_%s_dim_2.txt > /dev/null 2> /dev/null' % (inp[0], inp[1], inp[2]))
+    system('/home/dima/anaconda3/bin/python main.py %s %s < data_%s_dim_2.txt > /dev/null' % (inp[0], inp[1], inp[2]))
 
